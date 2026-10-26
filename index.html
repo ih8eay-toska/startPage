@@ -1,92 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f3efe7" />
-    <meta name="description" content="Toska's card-inspired personal search homepage." />
-    <title>Karuta</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main class="home">
-      <div class="home-layout">
-        <section class="orbit-side dark-side" aria-label="Dark card themes">
-          <div class="orbit" id="dark-orbit">
-            <svg class="orbit-label" viewBox="0 0 160 160" aria-hidden="true">
-              <defs><path id="dark-label-path" d="M80,80 m-61,0 a61,61 0 1,1 122,0 a61,61 0 1,1 -122,0" /></defs>
-              <circle class="orbit-label-ring" cx="80" cy="80" r="61" />
-              <text><textPath href="#dark-label-path" textLength="383" lengthAdjust="spacing">DARK COLLECTION · DARK COLLECTION · DARK COLLECTION · DARK COLLECTION ·</textPath></text>
-            </svg>
-            <div class="orbit-track"></div>
-          </div>
-        </section>
-        <section class="search-home" aria-label="Search the web">
-          <div class="main-section" id="main-section">
-            <div class="card-preview-stage">
-              <div class="card-slot theme-card-slot is-empty" id="theme-card-slot" aria-label="Selected theme card"><span class="slot-placeholder">SELECT CARD</span></div>
-              <div class="card-preview-note" aria-hidden="true"><span>THEME NOTE</span><p>Your theme description will appear here.</p></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="card_1">
+            <div class="image">
+                <p>当たる も 八卦 当たらぬ も 八卦</p>
+                <div class="img"></div>
             </div>
-            <h2 class="theme-name" id="theme-name" aria-live="polite">Linen Glow</h2>
-            <div class="cover-shell">
-              <div class="cover-stack">
-                <div class="search-core">
-                <div class="brand-row">
-                  <h1>Toska<span class="period">.</span></h1>
+            
+        </div>
+        <div class="card_2">
+            <div id="txt"></div>
+            <div class="secondsContainer">
+                <div id="seconds"></div> 
+            </div>
+        </div>
+        <div class="card_3">
+            <form action="https://www.google.com/search?q=a">
+                <div class="search">
+                    <input type="search" name="q" aria-label="Search" placeholder="Search on Google">
+                    <i class="fa-solid fa-magnifying-glass iconSearch"></i>
                 </div>
-                <form class="search-box" id="search-form" role="search">
-                <div class="engine-control">
-                  <span class="engine-mark" aria-hidden="true" id="engine-mark">G</span>
-                  <button class="engine-picker" id="engine-picker" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="engine-menu">
-                    <span id="engine-label">Google</span>
-                    <svg class="chevron" viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3" /></svg>
-                  </button>
-                  <div class="engine-menu" id="engine-menu" role="menu" aria-label="Choose search engine" hidden>
-                    <button type="button" role="menuitemradio" aria-checked="true" data-engine="google"><span class="engine-option-mark">G</span><span>Google</span></button>
-                    <button type="button" role="menuitemradio" aria-checked="false" data-engine="youtube"><span class="engine-option-mark">▶</span><span>YouTube</span></button>
-                  </div>
-                  <input id="engine-select" type="hidden" value="google" />
-                </div>
-                <span class="divider" aria-hidden="true"></span>
-                <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m15.5 15.5 4 4"/></svg>
-                <input id="query" name="q" type="search" placeholder="Search the web" autocomplete="off" spellcheck="false" aria-label="Search phrase" />
-                <button class="submit-search" type="submit" aria-label="Search">
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+                <button type="submit" hidden>
+                    Search
                 </button>
-                </form>
-                </div>
-              <section class="saved-divider" id="saved-pages" aria-labelledby="saved-pages-title" data-open="false">
-                <div class="saved-divider-content" id="saved-pages-content" inert>
-                  <div class="saved-divider-inner">
-                    <h2 id="saved-pages-title">Saved pages</h2>
-                    <div class="saved-page-list" id="saved-page-list"></div>
-                  </div>
-                </div>
-                <div class="saved-tabs" role="group" aria-label="Saved pages tabs">
-                  <button class="saved-tab" type="button" lang="en" data-language="en" aria-expanded="false" aria-controls="saved-pages-content">Saved</button>
-                  <button class="saved-tab" type="button" lang="fr" data-language="fr" aria-expanded="false" aria-controls="saved-pages-content">Enregistré</button>
-                  <button class="saved-tab" type="button" lang="zh-Hans" data-language="zh" aria-expanded="false" aria-controls="saved-pages-content">已保存</button>
-                  <button class="saved-tab" type="button" lang="ja" data-language="ja" aria-expanded="false" aria-controls="saved-pages-content">保存済み</button>
-                </div>
-              </section>
-            </div>
-          </div>
-        </section>
-        <section class="orbit-side light-side" aria-label="Light card themes">
-          <div class="orbit" id="light-orbit">
-            <svg class="orbit-label" viewBox="0 0 160 160" aria-hidden="true">
-              <defs><path id="light-label-path" d="M80,80 m-61,0 a61,61 0 1,1 122,0 a61,61 0 1,1 -122,0" /></defs>
-              <circle class="orbit-label-ring" cx="80" cy="80" r="61" />
-              <text><textPath href="#light-label-path" textLength="383" lengthAdjust="spacing">LIGHT COLLECTION · LIGHT COLLECTION · LIGHT COLLECTION · LIGHT COLLECTION ·</textPath></text>
-            </svg>
-            <div class="orbit-track"></div>
-          </div>
-        </section>
-      </div>
-    </main>
-    <script src="script.js"></script>
-  </body>
+            </form>
+        </div>
+        <div class="card_4">
+            <a class="link" href="https://www.youtube.com/">
+                <p>Youtube</p>
+                <i class="fa-brands fa-youtube icon"></i>
+            </a>
+            <a class="link" href="https://open.spotify.com/">
+                <p>Spotify</p>
+                <i class="fa-brands fa-spotify icon"></i>
+            </a>
+            <a class="link" href="https://www.reddit.com/">
+                <p>Reddit</p>
+                <i class="fa-brands fa-reddit-alien icon"></i>
+            </a>
+            <a class="link" href="https://www.linkedin.com/">
+                <p>LinkedIn</p>
+                <i class="fa-brands fa-linkedin-in icon"></i>
+            </a>
+            <a class="link" href="https://github.com/">
+                <p>Github</p>
+                <i class="fa-brands fa-github-alt icon"></i>
+            </a>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
 </html>
