@@ -1,0 +1,142 @@
+[
+  {
+    "filename": "jinhsi-5-1648.png",
+    "folder": "light",
+    "character": "Jinhsi",
+    "cardName": "Hsi",
+    "cardCode": "VGQG47",
+    "cardNumber": 1648,
+    "edition": 5,
+    "series": "Wuthering Waves"
+  },
+  {
+    "filename": "kiss-shot-1-2070.png",
+    "folder": "dark",
+    "character": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardName": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardCode": "QLGH4N",
+    "cardNumber": 2070,
+    "edition": 1,
+    "series": "Monogatari Series: Second Season"
+  },
+  {
+    "filename": "kiss-shot-3-3524.png",
+    "folder": "dark",
+    "character": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardName": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardCode": "PF4299",
+    "cardNumber": 3524,
+    "edition": 3,
+    "series": "Monogatari Series: Second Season"
+  },
+  {
+    "filename": "kiss-shot-4-711.png",
+    "folder": "dark",
+    "character": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardName": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardCode": "FZ5SSQ",
+    "cardNumber": 711,
+    "edition": 4,
+    "series": "Monogatari Series: Second Season"
+  },
+  {
+    "filename": "kiss-shot-5-7724.png",
+    "folder": "dark",
+    "character": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardName": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardCode": "V3TX7MR",
+    "cardNumber": 7724,
+    "edition": 5,
+    "series": "Monogatari Series: Second Season"
+  },
+  {
+    "filename": "kiss-shot-6-4204.png",
+    "folder": "dark",
+    "character": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardName": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardCode": "VRLJSMB",
+    "cardNumber": 4204,
+    "edition": 6,
+    "series": "Monogatari Series: Second Season"
+  },
+  {
+    "filename": "kiss-shot-7-2334.png",
+    "folder": "dark",
+    "character": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardName": "Kiss-Shot Acerola-Orion Heart-Under-Blade",
+    "cardCode": "V3RHPX9",
+    "cardNumber": 2334,
+    "edition": 7,
+    "series": "Monogatari Series: Second Season"
+  },
+  {
+    "filename": "shinobu-oshino-1-9925.png",
+    "folder": "light",
+    "character": "Shinobu Oshino",
+    "cardName": "Shinobu Oshino",
+    "cardCode": "BRLC5M",
+    "cardNumber": 9925,
+    "edition": 1,
+    "series": "Bakemonogatari"
+  },
+  {
+    "filename": "shinobu-oshino-2-11306.png",
+    "folder": "light",
+    "character": "Shinobu Oshino",
+    "cardName": "Shinobu Oshino",
+    "cardCode": "RVFJP7",
+    "cardNumber": 11306,
+    "edition": 2,
+    "series": "Bakemonogatari"
+  },
+  {
+    "filename": "shinobu-oshino-3-3126.png",
+    "folder": "light",
+    "character": "Shinobu Oshino",
+    "cardName": "Shinobu Oshino",
+    "cardCode": "RKTGQ4",
+    "cardNumber": 3126,
+    "edition": 3,
+    "series": "Bakemonogatari"
+  },
+  {
+    "filename": "shinobu-oshino-4-604.png",
+    "folder": "light",
+    "character": "Shinobu Oshino",
+    "cardName": "Shinobu Oshino",
+    "cardCode": "L4M0LP",
+    "cardNumber": 604,
+    "edition": 4,
+    "series": "Bakemonogatari"
+  },
+  {
+    "filename": "shinobu-oshino-5-7424.png",
+    "folder": "light",
+    "character": "Shinobu Oshino",
+    "cardName": "Shinobu Oshino",
+    "cardCode": "V3W3M3",
+    "cardNumber": 7424,
+    "edition": 5,
+    "series": "Bakemonogatari"
+  },
+  {
+    "filename": "shinobu-oshino-6-4888.png",
+    "folder": "dark",
+    "character": "Shinobu Oshino",
+    "cardName": "Shinobu Oshino",
+    "cardCode": "VJW12TT",
+    "cardNumber": 4888,
+    "edition": 6,
+    "series": "Bakemonogatari"
+  },
+  {
+    "filename": "shinobu-oshino-7-2131.png",
+    "folder": "light",
+    "character": "Shinobu Oshino",
+    "cardName": "Shinobu Oshino",
+    "cardCode": "V3GK5FF",
+    "cardNumber": 2131,
+    "edition": 7,
+    "series": "Bakemonogatari"
+  }
+]
